@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.hero {
+  background-image: url('your-hero-image-url.jpg'); /* Add your hero image URL here */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFD700; /* Gold color for the button */
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #FFC107; /* Darker gold on hover */
+}
+
+.sub-hero {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.sub-hero h3 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.sub-hero-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.sub-hero-item {
+  background-color: #e7f3ff; /* Light blue */
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1 0 200px; /* Responsive item */
+  max-width: 300px; /* Maximum width for the items */
+}
+
+.sub-sub-hero {
+  background-color: #f7f7f7;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.sub-sub-hero h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
